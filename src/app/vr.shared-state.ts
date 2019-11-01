@@ -37,8 +37,8 @@ export class Credentials {
 @Injectable()
 export class VrSharedState {
   // public apiRoot: string = 'http://eniso.info/ws/core';
-   public apiRoot: string = 'http://localhost:8080/ws/core';
-  //public apiRoot: string = 'http://paas-project25-paasproject.192.168.99.100.nip.io/ws/core';
+  // public apiRoot: string = 'http://localhost:8080/ws/core';
+  public apiRoot: string = 'http://service-tp-devops.192.168.99.100.nip.io/ws/core';
   public sessionId: BehaviorSubject<string> = new BehaviorSubject<string>('');
   public credentials: Credentials;
   public currentUser: BehaviorSubject<CurrentUser> = new BehaviorSubject<CurrentUser>({
